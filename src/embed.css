@@ -1,0 +1,9 @@
+html,body,#app{margin:0;width:100%;height:100%;overflow:hidden}
+.demo-embed{position:relative;width:100%;height:100%;overflow:hidden;background:#fff;isolation:isolate}
+.demo-iframe{display:block;position:absolute;left:0;top:0;border:0;transform-origin:0 0;max-width:none}
+.demo-expand{position:absolute;right:12px;bottom:12px;z-index:2;padding:9px 12px;background:#fff;color:#475467;border:1px solid #d0d5dd;border-radius:6px;text-decoration:none;font:500 12px/18px 'Roboto Variable',Arial,sans-serif;box-shadow:0 2px 8px #1018280d;opacity:0;transition:opacity .15s,background .15s}
+.demo-embed:hover>.demo-expand,.demo-embed:focus-within>.demo-expand{opacity:1}
+.demo-expand:hover{background:#f0f6ef;color:#477a47;border-color:#79b279}
+.demo-expand:focus-visible{opacity:1;outline:2px solid #477a47;outline-offset:3px}
+@media(hover:none),(max-width:600px){.demo-expand{opacity:1}}
+@media(prefers-reduced-motion:reduce){.demo-expand{transition:none}}
