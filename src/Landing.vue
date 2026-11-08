@@ -35,7 +35,7 @@ function reopen() { submitted.value = false; void nextTick(() => document.getEle
   <div class="l-page">
     <a href="#live-demo" class="l-skip">Перейти к интерактивному демо</a>
     <header class="l-header">
-      <a class="l-brand" href="#top" aria-label="Умный сев — начало страницы"><span class="l-brand-name"><span class="l-brand-symbol"><img src="/assets/sidebar-imgGroup9.svg" alt="" width="24" height="24" /></span><span>Умный сев</span></span><span class="l-brand-divider"><img :src="asset('22100:47382','imgLine283')" alt="" /></span><span class="l-tagline">Цифровое зрение<br />для эксперта</span></a>
+      <a class="l-brand" href="#top" aria-label="Умный сев — начало страницы"><span class="l-brand-name"><span class="l-brand-symbol"><img src="/assets/sidebar-imgGroup9.svg" alt="" width="24" height="24" /></span><img class="l-brand-wordmark" src="/landing-assets/logo-wordmark.svg" alt="" /></span><span class="l-brand-divider"><img :src="asset('22100:47382','imgLine283')" alt="" /></span><span class="l-tagline">Цифровое зрение<br />для эксперта</span></a>
       <nav class="l-nav" aria-label="Разделы лендинга"><a href="#how-it-works">Как это работает</a><a href="#how-to-start">Как начать</a><a href="#contacts">Контакты</a></nav>
       <div class="l-header-actions"><a class="l-phone" href="tel:89999999999"><img :src="asset('22100:47382','imgLocalPhone')" alt="" />8 999 999 99 99</a><a class="l-header-cta l-button" href="#request">Попробовать бесплатно</a></div>
     </header>
